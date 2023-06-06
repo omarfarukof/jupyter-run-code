@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: jupyter-run-code
+Version: 0.1
+Summary: This package addes a Jupyter magic command to write code         and run it.
+Home-page: https://github.com/omarfarukof/jupyter-run-code
+Author: Omar Faruk
+Author-email: omarfaruk20@iut-dhaka.edu
