@@ -78,6 +78,17 @@ class Code:
             self.create_file()      
         self.get_code_info()
         os.system(self.run_syntax)
+        # remove thr tmp directory
+        self.remove_tmp()
+    def remove_tmp(path= tmpdir):
+        # Remove the temporary directory and all its contents
+        if os.path.exists(path):
+            for root, dirs, files in os.walk(path, topdown=False):
+                for name in files:
+                    os.remove(os.path.join(root, name))
+                for name in dirs:
+                    os.rmdir(os.path.join(root, name))
+            os.rmdir(path)
 
     def create_file(self):
         os.makedirs(self.location, exist_ok=True)
