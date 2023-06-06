@@ -1,6 +1,0 @@
-setup.py
-jupyter_run_code.egg-info/PKG-INFO
-jupyter_run_code.egg-info/SOURCES.txt
-jupyter_run_code.egg-info/dependency_links.txt
-jupyter_run_code.egg-info/requires.txt
-jupyter_run_code.egg-info/top_level.txt
