@@ -81,7 +81,7 @@ class Code:
         # remove thr tmp directory
         self.remove_tmp()
     def remove_tmp(path= tmpdir):
-        print(tmpdir)
+        print("Hello")
         # Remove the temporary directory and all its contents
         if os.path.exists(path):
             for root, dirs, files in os.walk(path, topdown=False):
